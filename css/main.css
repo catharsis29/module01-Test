@@ -1,0 +1,21 @@
+h1 {
+    color: aliceblue;
+    background:#BC8F8F;
+    text-transform: uppercase;
+    font-style: italic;
+}
+p {
+    color:mediumslateblue;
+}
+ul {
+    color:blue;
+    list-style-type: square;
+}
+a {
+    color:white;
+    background:darkslateblue;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    display:inline-block;
+}
