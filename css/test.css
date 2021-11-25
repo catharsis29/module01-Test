@@ -16,6 +16,13 @@ h1, h2, h3 {
     letter-spacing: 0.5px;
 }
 
+.link {
+    background: rebeccapurple;
+    color: white;
+    padding: 8px 15px;
+    margin-left: 10px;
+}
+
 a {
     color:rebeccapurple;
     font-weight: 700;
@@ -30,7 +37,7 @@ a:hover {
 
 .logo {
     color: lightgreen;
-    background-color: rebeccapurple;
+    background: rebeccapurple;
     text-decoration: none;
     font-weight: 700;
     margin-right: 50px;
@@ -44,9 +51,9 @@ ul {
     margin: 0;
 }
 
-ul > li {
-    margin-right: 30px;
-}
+ul > li { margin-right: 30px;}
+
+ul>li:last-child { margin-right: 0; }
 
 .box {
     display: flex;
@@ -56,20 +63,18 @@ ul > li {
 }
 
 .aside {
-    background-color:lavender;
+    background:lavender;
     padding: 10px 20px;
 
 }
 
 section {
-    background-color:lavender;
+    background:lavender;
     padding: 5px 20px;
     margin-bottom: 20px;
 }
 
-.post {
-    padding-bottom: 20px;
-}
+.post { padding-bottom: 20px; }
 
 footer {
 font-size: 13px;
